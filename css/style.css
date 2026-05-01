@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "mc";
+  src: url("font/Minecraftia-Regular.ttf") format("truetype");
+}
+
+body{
+    background-image: url("img/background.png");
+    font-family: "mc";
+    background-size:100%;
+    image-rendering: pixelated;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+#login_box{
+    color: white;
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin: 1%;
+}
+#login_text{
+    height: 1%;
+    color: white;
+    font-size: 300%;
+    margin: 1%;
+}
+#line {
+    width: 30%;
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 0 auto;
+}
+.inputs{
+    color: white;
+    background-color: rgb(53, 53, 53);
+    font-family: "mc";
+    width: 15%;
+    height: 30px;
+}
+#login_button{
+    font-family: "mc";
+    width: 15%;
+    height: 30px;
+    background-color: rgb(198,198,198);
+}
